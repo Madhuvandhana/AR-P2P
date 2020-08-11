@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A5A1B9D24E232610015A130 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5A1B9C24E232610015A130 /* AppDelegate.swift */; };
+		3A5A1B9F24E232610015A130 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5A1B9E24E232610015A130 /* SceneDelegate.swift */; };
+		3A5A1BA124E232610015A130 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5A1BA024E232610015A130 /* ViewController.swift */; };
+		3A5A1BA424E232610015A130 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A5A1BA224E232610015A130 /* Main.storyboard */; };
+		3A5A1BA624E232620015A130 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A5A1BA524E232620015A130 /* Assets.xcassets */; };
+		3A5A1BA924E232620015A130 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A5A1BA724E232620015A130 /* LaunchScreen.storyboard */; };
+		3A5A1BB424E232620015A130 /* ArkitP2PDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5A1BB324E232620015A130 /* ArkitP2PDemoTests.swift */; };
+		3A5A1BBF24E232620015A130 /* ArkitP2PDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5A1BBE24E232620015A130 /* ArkitP2PDemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A5A1BB024E232620015A130 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A5A1B9124E232610015A130 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A5A1B9824E232610015A130;
+			remoteInfo = ArkitP2PDemo;
+		};
+		3A5A1BBB24E232620015A130 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A5A1B9124E232610015A130 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A5A1B9824E232610015A130;
+			remoteInfo = ArkitP2PDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A5A1B9924E232610015A130 /* ArkitP2PDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArkitP2PDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A5A1B9C24E232610015A130 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3A5A1B9E24E232610015A130 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3A5A1BA024E232610015A130 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3A5A1BA324E232610015A130 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A5A1BA524E232620015A130 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A5A1BA824E232620015A130 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3A5A1BAA24E232620015A130 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A5A1BAF24E232620015A130 /* ArkitP2PDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArkitP2PDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A5A1BB324E232620015A130 /* ArkitP2PDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArkitP2PDemoTests.swift; sourceTree = "<group>"; };
+		3A5A1BB524E232620015A130 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A5A1BBA24E232620015A130 /* ArkitP2PDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArkitP2PDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A5A1BBE24E232620015A130 /* ArkitP2PDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArkitP2PDemoUITests.swift; sourceTree = "<group>"; };
+		3A5A1BC024E232620015A130 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A5A1B9624E232610015A130 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A5A1BAC24E232620015A130 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A5A1BB724E232620015A130 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A5A1B9024E232610015A130 = {
+			isa = PBXGroup;
+			children = (
+				3A5A1B9B24E232610015A130 /* ArkitP2PDemo */,
+				3A5A1BB224E232620015A130 /* ArkitP2PDemoTests */,
+				3A5A1BBD24E232620015A130 /* ArkitP2PDemoUITests */,
+				3A5A1B9A24E232610015A130 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A5A1B9A24E232610015A130 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A5A1B9924E232610015A130 /* ArkitP2PDemo.app */,
+				3A5A1BAF24E232620015A130 /* ArkitP2PDemoTests.xctest */,
+				3A5A1BBA24E232620015A130 /* ArkitP2PDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A5A1B9B24E232610015A130 /* ArkitP2PDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3A5A1B9C24E232610015A130 /* AppDelegate.swift */,
+				3A5A1B9E24E232610015A130 /* SceneDelegate.swift */,
+				3A5A1BA024E232610015A130 /* ViewController.swift */,
+				3A5A1BA224E232610015A130 /* Main.storyboard */,
+				3A5A1BA524E232620015A130 /* Assets.xcassets */,
+				3A5A1BA724E232620015A130 /* LaunchScreen.storyboard */,
+				3A5A1BAA24E232620015A130 /* Info.plist */,
+			);
+			path = ArkitP2PDemo;
+			sourceTree = "<group>";
+		};
+		3A5A1BB224E232620015A130 /* ArkitP2PDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A5A1BB324E232620015A130 /* ArkitP2PDemoTests.swift */,
+				3A5A1BB524E232620015A130 /* Info.plist */,
+			);
+			path = ArkitP2PDemoTests;
+			sourceTree = "<group>";
+		};
+		3A5A1BBD24E232620015A130 /* ArkitP2PDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3A5A1BBE24E232620015A130 /* ArkitP2PDemoUITests.swift */,
+				3A5A1BC024E232620015A130 /* Info.plist */,
+			);
+			path = ArkitP2PDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A5A1B9824E232610015A130 /* ArkitP2PDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A5A1BC324E232620015A130 /* Build configuration list for PBXNativeTarget "ArkitP2PDemo" */;
+			buildPhases = (
+				3A5A1B9524E232610015A130 /* Sources */,
+				3A5A1B9624E232610015A130 /* Frameworks */,
+				3A5A1B9724E232610015A130 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArkitP2PDemo;
+			productName = ArkitP2PDemo;
+			productReference = 3A5A1B9924E232610015A130 /* ArkitP2PDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A5A1BAE24E232620015A130 /* ArkitP2PDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A5A1BC624E232620015A130 /* Build configuration list for PBXNativeTarget "ArkitP2PDemoTests" */;
+			buildPhases = (
+				3A5A1BAB24E232620015A130 /* Sources */,
+				3A5A1BAC24E232620015A130 /* Frameworks */,
+				3A5A1BAD24E232620015A130 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A5A1BB124E232620015A130 /* PBXTargetDependency */,
+			);
+			name = ArkitP2PDemoTests;
+			productName = ArkitP2PDemoTests;
+			productReference = 3A5A1BAF24E232620015A130 /* ArkitP2PDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3A5A1BB924E232620015A130 /* ArkitP2PDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A5A1BC924E232620015A130 /* Build configuration list for PBXNativeTarget "ArkitP2PDemoUITests" */;
+			buildPhases = (
+				3A5A1BB624E232620015A130 /* Sources */,
+				3A5A1BB724E232620015A130 /* Frameworks */,
+				3A5A1BB824E232620015A130 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A5A1BBC24E232620015A130 /* PBXTargetDependency */,
+			);
+			name = ArkitP2PDemoUITests;
+			productName = ArkitP2PDemoUITests;
+			productReference = 3A5A1BBA24E232620015A130 /* ArkitP2PDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A5A1B9124E232610015A130 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					3A5A1B9824E232610015A130 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					3A5A1BAE24E232620015A130 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 3A5A1B9824E232610015A130;
+					};
+					3A5A1BB924E232620015A130 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 3A5A1B9824E232610015A130;
+					};
+				};
+			};
+			buildConfigurationList = 3A5A1B9424E232610015A130 /* Build configuration list for PBXProject "ArkitP2PDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A5A1B9024E232610015A130;
+			productRefGroup = 3A5A1B9A24E232610015A130 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A5A1B9824E232610015A130 /* ArkitP2PDemo */,
+				3A5A1BAE24E232620015A130 /* ArkitP2PDemoTests */,
+				3A5A1BB924E232620015A130 /* ArkitP2PDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A5A1B9724E232610015A130 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A5A1BA924E232620015A130 /* LaunchScreen.storyboard in Resources */,
+				3A5A1BA624E232620015A130 /* Assets.xcassets in Resources */,
+				3A5A1BA424E232610015A130 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A5A1BAD24E232620015A130 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A5A1BB824E232620015A130 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A5A1B9524E232610015A130 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A5A1BA124E232610015A130 /* ViewController.swift in Sources */,
+				3A5A1B9D24E232610015A130 /* AppDelegate.swift in Sources */,
+				3A5A1B9F24E232610015A130 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A5A1BAB24E232620015A130 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A5A1BB424E232620015A130 /* ArkitP2PDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A5A1BB624E232620015A130 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A5A1BBF24E232620015A130 /* ArkitP2PDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A5A1BB124E232620015A130 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A5A1B9824E232610015A130 /* ArkitP2PDemo */;
+			targetProxy = 3A5A1BB024E232620015A130 /* PBXContainerItemProxy */;
+		};
+		3A5A1BBC24E232620015A130 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A5A1B9824E232610015A130 /* ArkitP2PDemo */;
+			targetProxy = 3A5A1BBB24E232620015A130 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3A5A1BA224E232610015A130 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A5A1BA324E232610015A130 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3A5A1BA724E232620015A130 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A5A1BA824E232620015A130 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A5A1BC124E232620015A130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3A5A1BC224E232620015A130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A5A1BC424E232620015A130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G5F3DD3JQ7;
+				INFOPLIST_FILE = ArkitP2PDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bossrevolution.money.ArkitP2PDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A5A1BC524E232620015A130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G5F3DD3JQ7;
+				INFOPLIST_FILE = ArkitP2PDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bossrevolution.money.ArkitP2PDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3A5A1BC724E232620015A130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G5F3DD3JQ7;
+				INFOPLIST_FILE = ArkitP2PDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bossrevolution.money.ArkitP2PDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArkitP2PDemo.app/ArkitP2PDemo";
+			};
+			name = Debug;
+		};
+		3A5A1BC824E232620015A130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G5F3DD3JQ7;
+				INFOPLIST_FILE = ArkitP2PDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bossrevolution.money.ArkitP2PDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArkitP2PDemo.app/ArkitP2PDemo";
+			};
+			name = Release;
+		};
+		3A5A1BCA24E232620015A130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G5F3DD3JQ7;
+				INFOPLIST_FILE = ArkitP2PDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bossrevolution.money.ArkitP2PDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ArkitP2PDemo;
+			};
+			name = Debug;
+		};
+		3A5A1BCB24E232620015A130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G5F3DD3JQ7;
+				INFOPLIST_FILE = ArkitP2PDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bossrevolution.money.ArkitP2PDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ArkitP2PDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A5A1B9424E232610015A130 /* Build configuration list for PBXProject "ArkitP2PDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A5A1BC124E232620015A130 /* Debug */,
+				3A5A1BC224E232620015A130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A5A1BC324E232620015A130 /* Build configuration list for PBXNativeTarget "ArkitP2PDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A5A1BC424E232620015A130 /* Debug */,
+				3A5A1BC524E232620015A130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A5A1BC624E232620015A130 /* Build configuration list for PBXNativeTarget "ArkitP2PDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A5A1BC724E232620015A130 /* Debug */,
+				3A5A1BC824E232620015A130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A5A1BC924E232620015A130 /* Build configuration list for PBXNativeTarget "ArkitP2PDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A5A1BCA24E232620015A130 /* Debug */,
+				3A5A1BCB24E232620015A130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A5A1B9124E232610015A130 /* Project object */;
+}
