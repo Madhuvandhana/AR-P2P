@@ -15,6 +15,8 @@
 		3A5A1BA924E232620015A130 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A5A1BA724E232620015A130 /* LaunchScreen.storyboard */; };
 		3A5A1BB424E232620015A130 /* ArkitP2PDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5A1BB324E232620015A130 /* ArkitP2PDemoTests.swift */; };
 		3A5A1BBF24E232620015A130 /* ArkitP2PDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5A1BBE24E232620015A130 /* ArkitP2PDemoUITests.swift */; };
+		A2DED6D9148BF0B2B5935E53 /* Pods_ArkitP2PDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9B38BEDD927F3911A274DA1 /* Pods_ArkitP2PDemo.framework */; };
+		D8B43953DD522672EDFF7E48 /* Pods_ArkitP2PDemo_ArkitP2PDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF74DA5E32018D03734C098C /* Pods_ArkitP2PDemo_ArkitP2PDemoTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18E7CF950A37B37C0674D5E8 /* Pods-ArkitP2PDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArkitP2PDemo.release.xcconfig"; path = "Target Support Files/Pods-ArkitP2PDemo/Pods-ArkitP2PDemo.release.xcconfig"; sourceTree = "<group>"; };
 		3A5A1B9924E232610015A130 /* ArkitP2PDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArkitP2PDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A5A1B9C24E232610015A130 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A5A1B9E24E232610015A130 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +52,11 @@
 		3A5A1BBA24E232620015A130 /* ArkitP2PDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArkitP2PDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A5A1BBE24E232620015A130 /* ArkitP2PDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArkitP2PDemoUITests.swift; sourceTree = "<group>"; };
 		3A5A1BC024E232620015A130 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D92EC635A4C582C6B2A0A6B /* Pods-ArkitP2PDemo-ArkitP2PDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArkitP2PDemo-ArkitP2PDemoTests.release.xcconfig"; path = "Target Support Files/Pods-ArkitP2PDemo-ArkitP2PDemoTests/Pods-ArkitP2PDemo-ArkitP2PDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		AA35FA5A9682335F6E98EAAF /* Pods-ArkitP2PDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArkitP2PDemo.debug.xcconfig"; path = "Target Support Files/Pods-ArkitP2PDemo/Pods-ArkitP2PDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		AF74DA5E32018D03734C098C /* Pods_ArkitP2PDemo_ArkitP2PDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArkitP2PDemo_ArkitP2PDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5C9F9BF3802DC033051C717 /* Pods-ArkitP2PDemo-ArkitP2PDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArkitP2PDemo-ArkitP2PDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-ArkitP2PDemo-ArkitP2PDemoTests/Pods-ArkitP2PDemo-ArkitP2PDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D9B38BEDD927F3911A274DA1 /* Pods_ArkitP2PDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArkitP2PDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2DED6D9148BF0B2B5935E53 /* Pods_ArkitP2PDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8B43953DD522672EDFF7E48 /* Pods_ArkitP2PDemo_ArkitP2PDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +86,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22949AEA10B65DABE735FF98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9B38BEDD927F3911A274DA1 /* Pods_ArkitP2PDemo.framework */,
+				AF74DA5E32018D03734C098C /* Pods_ArkitP2PDemo_ArkitP2PDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3A5A1B9024E232610015A130 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +102,8 @@
 				3A5A1BB224E232620015A130 /* ArkitP2PDemoTests */,
 				3A5A1BBD24E232620015A130 /* ArkitP2PDemoUITests */,
 				3A5A1B9A24E232610015A130 /* Products */,
+				C84BC7DD6DD364F27008D9F4 /* Pods */,
+				22949AEA10B65DABE735FF98 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +149,18 @@
 			path = ArkitP2PDemoUITests;
 			sourceTree = "<group>";
 		};
+		C84BC7DD6DD364F27008D9F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA35FA5A9682335F6E98EAAF /* Pods-ArkitP2PDemo.debug.xcconfig */,
+				18E7CF950A37B37C0674D5E8 /* Pods-ArkitP2PDemo.release.xcconfig */,
+				B5C9F9BF3802DC033051C717 /* Pods-ArkitP2PDemo-ArkitP2PDemoTests.debug.xcconfig */,
+				3D92EC635A4C582C6B2A0A6B /* Pods-ArkitP2PDemo-ArkitP2PDemoTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +168,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3A5A1BC324E232620015A130 /* Build configuration list for PBXNativeTarget "ArkitP2PDemo" */;
 			buildPhases = (
+				AC965074314696CFC2B0A29F /* [CP] Check Pods Manifest.lock */,
 				3A5A1B9524E232610015A130 /* Sources */,
 				3A5A1B9624E232610015A130 /* Frameworks */,
 				3A5A1B9724E232610015A130 /* Resources */,
+				CDDB0195A2F90236AADD9E3D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,9 +187,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3A5A1BC624E232620015A130 /* Build configuration list for PBXNativeTarget "ArkitP2PDemoTests" */;
 			buildPhases = (
+				00F32E752F2A7E7BFBD15F5D /* [CP] Check Pods Manifest.lock */,
 				3A5A1BAB24E232620015A130 /* Sources */,
 				3A5A1BAC24E232620015A130 /* Frameworks */,
 				3A5A1BAD24E232620015A130 /* Resources */,
+				1F28352A3556A17A2EC94262 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +289,87 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00F32E752F2A7E7BFBD15F5D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArkitP2PDemo-ArkitP2PDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1F28352A3556A17A2EC94262 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArkitP2PDemo-ArkitP2PDemoTests/Pods-ArkitP2PDemo-ArkitP2PDemoTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArkitP2PDemo-ArkitP2PDemoTests/Pods-ArkitP2PDemo-ArkitP2PDemoTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ArkitP2PDemo-ArkitP2PDemoTests/Pods-ArkitP2PDemo-ArkitP2PDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC965074314696CFC2B0A29F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArkitP2PDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDDB0195A2F90236AADD9E3D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArkitP2PDemo/Pods-ArkitP2PDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArkitP2PDemo/Pods-ArkitP2PDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ArkitP2PDemo/Pods-ArkitP2PDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3A5A1B9524E232610015A130 /* Sources */ = {
@@ -433,6 +551,7 @@
 		};
 		3A5A1BC424E232620015A130 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA35FA5A9682335F6E98EAAF /* Pods-ArkitP2PDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +571,7 @@
 		};
 		3A5A1BC524E232620015A130 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18E7CF950A37B37C0674D5E8 /* Pods-ArkitP2PDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +591,7 @@
 		};
 		3A5A1BC724E232620015A130 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5C9F9BF3802DC033051C717 /* Pods-ArkitP2PDemo-ArkitP2PDemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +614,7 @@
 		};
 		3A5A1BC824E232620015A130 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D92EC635A4C582C6B2A0A6B /* Pods-ArkitP2PDemo-ArkitP2PDemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
